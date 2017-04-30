@@ -1,0 +1,33 @@
+/*
+
+*/
+/* 
+    Created on : Apr 27, 2017, 11:47:15 AM
+    Author     : allenwilliams
+*/
+
+#main {
+    -fx-background-image: url("Resources/bg.jpeg");
+}
+
+.root {
+    -fx-background-color: aliceblue;
+}
+
+#Welcome {
+    -fx-font-family: "WenQuanYi Zen Hei Mono";
+    -fx-text-fill: yellow;
+    -fx-font-size: 18;
+    -fx-underline: true;
+}
+
+.button:hover {
+    -fx-effect: dropshadow(three-pass-box, grey, 10, 0, 0, 0);
+    -fx-background-color: bisque;
+}
+
+.button:focused {
+    -fx-background-color: -fx-outer-border, -fx-inner-border, -fx-body-color;
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-raius: 5, 4, 3;
+}

@@ -1,0 +1,5 @@
+apple	10	round
+Banana	3	ripe
+Cherry	2	Cherries
+Dog	3	Smelly
+orange	2	orange
